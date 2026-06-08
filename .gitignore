@@ -1,10 +1,27 @@
-# Sistema operativo
+# Excluir la carpeta de compilación e importación interna de Godot 4
+.godot/
+
+# Archivos de configuración del usuario del editor de Godot
+project.xcworkspace
+.pck
+.exe
+.apk
+.gex
+.apple
+
+# Archivos temporales de exportación
+build/
+dist/
+
+# Configuración de editores externos
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Archivos del sistema operativo
 .DS_Store
 Thumbs.db
-
-# VS Code
-.vscode/
-
-# Archivos temporales
-*.tmp
-*.log
